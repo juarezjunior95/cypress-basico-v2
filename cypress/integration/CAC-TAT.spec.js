@@ -116,7 +116,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
       it('marca ambos checkboxes, depois desmarca o último', function(){
         cy.get('input[type="checkbox"]')
         .check()
-        .should('be.checekd')
+        .should('be.checked')
         .last()
         .uncheck()
         .should('be.not.checked')
